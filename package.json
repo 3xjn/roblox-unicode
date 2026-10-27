@@ -10,7 +10,8 @@
     "LICENSE.unicode",
     "data-provenance.json",
     "verification.json",
-    "README.md"
+    "README.md",
+    "default.project.json"
   ],
   "repository": {
     "type": "git",
@@ -20,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/3xjn/roblox-unicode/issues"
   },
-  "description": "Unicode data and text-breaking helpers for Roblox."
+  "description": "Unicode data and text-breaking helpers for Roblox.",
+  "types": "./src/init.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/init.d.ts",
+      "default": "./src/init.luau"
+    },
+    "./*": "./*"
+  }
 }
