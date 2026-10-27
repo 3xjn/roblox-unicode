@@ -1,0 +1,81 @@
+{
+  "unicodeVersion": "17.0.0",
+  "flags": {
+    "eastAsian": 1,
+    "combiningCategory": 2,
+    "initialPunctuation": 4,
+    "finalPunctuation": 8,
+    "unassigned": 16,
+    "extendedPictographic": 32
+  },
+  "inputs": [
+    {
+      "url": "https://www.unicode.org/Public/17.0.0/ucd/EastAsianWidth.txt",
+      "sha256": "ea7ce50f3444a050333448dffef1cadd9325af55cbb764b4a2280faf52170a33"
+    },
+    {
+      "url": "https://www.unicode.org/Public/17.0.0/ucd/emoji/emoji-data.txt",
+      "sha256": "2cb2bb9455cda83e8481541ecf5b6dfda66a3bb89efa3fa7c5297eccf607b72b"
+    },
+    {
+      "url": "https://www.unicode.org/Public/17.0.0/ucd/extracted/DerivedGeneralCategory.txt",
+      "sha256": "d62e5bab70ca74f099343f71224fa051cb1fdd61a1ab45c0488c44cfc0b6102e"
+    },
+    {
+      "url": "https://www.unicode.org/Public/17.0.0/ucd/LineBreak.txt",
+      "sha256": "e6a18fa91f8f6a6f8e534b1d3f128c21ada45bfe152eb6b1bcc5e15fd8ac92e6"
+    }
+  ],
+  "lineBreakClasses": [
+    "AI",
+    "AK",
+    "AL",
+    "AP",
+    "AS",
+    "B2",
+    "BA",
+    "BB",
+    "BK",
+    "CB",
+    "CJ",
+    "CL",
+    "CM",
+    "CP",
+    "CR",
+    "EB",
+    "EM",
+    "EX",
+    "GL",
+    "H2",
+    "H3",
+    "HH",
+    "HL",
+    "HY",
+    "ID",
+    "IN",
+    "IS",
+    "JL",
+    "JT",
+    "JV",
+    "LF",
+    "NL",
+    "NS",
+    "NU",
+    "OP",
+    "PO",
+    "PR",
+    "QU",
+    "RI",
+    "SA",
+    "SG",
+    "SP",
+    "SY",
+    "VF",
+    "VI",
+    "WJ",
+    "XX",
+    "ZW",
+    "ZWJ"
+  ],
+  "ranges": 3987
+}

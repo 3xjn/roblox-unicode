@@ -1,0 +1,36 @@
+{
+  "observedOn": "2026-10-22",
+  "unicodeVersion": "17.0.0",
+  "corpus": {
+    "url": "https://www.unicode.org/Public/17.0.0/ucd/auxiliary/LineBreakTest.txt",
+    "sha256": "e69884e0dde6a8724873f885d68c52dc14518abf9ae4ca9e2283b8773db3b752",
+    "cases": 19338,
+    "excluded": 0
+  },
+  "environment": "Roblox Studio Place1, Client Play, execute_luau",
+  "comparison": "All allowed/prohibited boundary positions as UTF-8 prefix-byte offsets; a second complete run also compared required/optional flags from the pinned corpus rule annotations (0.3 EOF, 4.0 BK, 5.02 CR, 5.03 LF, 5.04 NL).",
+  "mismatchesBeforeDataFix": 31,
+  "mismatchesAfterDataFix": 0,
+  "fix": "Retain digits in generated class names and validate all 49 Unicode 17 classes; B2/H2/H3 previously truncated.",
+  "sourceHashNormalization": "UTF-8 text with leading/trailing whitespace removed; Studio module sources compared with the same normalization.",
+  "runtimeSourceSha256": {
+    "src/init.luau": "fd4d81c6804d7a6d3f54d4c11ca234784e0d1ccb0cfe0f4777bfb0e4027317aa",
+    "src/LineBreak.luau": "5c0584d35a1f3d37d16de2e0cc5cd8b20783dd67edd899f27eda41d2f2204806",
+    "src/LineBreakData.luau": "10d25bfdad5a898d06c65553ddef8f8581ef6527c6415ba416522a26d42752e9",
+    "src/Properties.luau": "e226a5ae647e55af3c88a6480184305e8893500cf23cc86527ed527d8c1fd0b9"
+  },
+  "generatorSha256": "7d29a87bfdcb10e01c28058bb18d4e00a54ee44ee3d390e346884ba1c258a9ca",
+  "limits": [
+    "Finite matching corpus only, not exhaustive input-space coverage",
+    "Not CSS tailoring, layout, font shaping, performance or Volt verification",
+    "API input/work budgets remain in force",
+    "Reverify after rule or data changes; this is a recorded observation, not an automatic current result"
+  ],
+  "robloxVersion": "0.743.0.7431133",
+  "studioSourcesMatched": true,
+  "flagComparison": {
+    "cases": 19338,
+    "casesWithInternalMandatoryBreak": 1110,
+    "mismatches": 0
+  }
+}

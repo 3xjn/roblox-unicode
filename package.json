@@ -1,0 +1,24 @@
+{
+  "name": "@3xjn/roblox-unicode",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT AND Unicode-3.0",
+  "main": "src/init.luau",
+  "files": [
+    "src",
+    "LICENSE.upstream",
+    "LICENSE.unicode",
+    "data-provenance.json",
+    "verification.json",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3xjn/roblox-unicode.git"
+  },
+  "homepage": "https://github.com/3xjn/roblox-unicode#readme",
+  "bugs": {
+    "url": "https://github.com/3xjn/roblox-unicode/issues"
+  },
+  "description": "Unicode data and text-breaking helpers for Roblox."
+}
