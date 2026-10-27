@@ -73,7 +73,7 @@ candidate lines and reuses native glyph shaping after selecting their boundaries
 
 This repository contains the `@3xjn/roblox-unicode` package. It is in active development and has not been published to npm.
 
-Authenticate Git with GitHub before running `npm install`; development dependencies use the related private GitHub repositories.
+Run `npm install` to install development dependencies from the related GitHub repositories.
 
 Build the Luau module with `rojo build default.project.json --output Unicode.rbxm`. Runtime imports expect the related modules as siblings in the Roblox package tree.
 
